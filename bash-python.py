@@ -20,7 +20,7 @@ print(out)
 #
 x = 0
 t=1
-while t<5:
+while t<24:
     x=x+1
     print("echo \"$sample" + str(x) + "\"")
     print("gzip \"$sample" + str(x) + "\".fastq")
